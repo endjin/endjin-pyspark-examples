@@ -1,4 +1,9 @@
+import os
+import sys
 from pyspark.sql import SparkSession
+
+os.environ.setdefault("PYSPARK_PYTHON", sys.executable)
+os.environ.setdefault("PYSPARK_DRIVER_PYTHON", sys.executable)
 
 
 def before_all(context):
