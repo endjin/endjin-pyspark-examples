@@ -10,6 +10,7 @@ dependencies = [
     "pandas<3.0",
     "requests",
     "fsspec",
+    "delta-spark>=4.2.0",
 ]
 
 [dependency-groups]
