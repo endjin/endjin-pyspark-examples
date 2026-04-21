@@ -199,7 +199,7 @@ wheels = [
 ]
 
 [[package]]
-name = "endjin-polars-examples"
+name = "endjin-pyspark-examples"
 version = "0.1.0"
 source = { editable = "." }
 dependencies = [
@@ -222,8 +222,8 @@ dev = [
 requires-dist = [
     { name = "fsspec" },
     { name = "pandas", specifier = "<3.0" },
-    { name = "pandera", extras = ["pyspark"], specifier = ">=0.30.1" },
-    { name = "pyspark", specifier = ">=4.1.1" },
+    { name = "pandera", extras = ["pyspark"] },
+    { name = "pyspark" },
     { name = "requests" },
 ]
 
